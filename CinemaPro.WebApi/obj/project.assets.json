@@ -9230,11 +9230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Final-Pro\\CinemaPro.WebApi\\CinemaPro.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.WebApi\\CinemaPro.WebApi.csproj",
       "projectName": "CinemaPro.WebApi",
-      "projectPath": "D:\\Final-Pro\\CinemaPro.WebApi\\CinemaPro.WebApi.csproj",
+      "projectPath": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.WebApi\\CinemaPro.WebApi.csproj",
       "packagesPath": "C:\\Users\\komp\\.nuget\\packages\\",
-      "outputPath": "D:\\Final-Pro\\CinemaPro.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\komp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9251,8 +9251,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Final-Pro\\CinemaPro.Domain\\CinemaPro.Domain.csproj": {
-              "projectPath": "D:\\Final-Pro\\CinemaPro.Domain\\CinemaPro.Domain.csproj"
+            "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\CinemaPro.Domain.csproj": {
+              "projectPath": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\CinemaPro.Domain.csproj"
             }
           }
         }

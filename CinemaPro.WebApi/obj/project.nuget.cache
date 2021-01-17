@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UFwzs1Tsk7Dn+X/j9PzAlyKvrN2/0p7LfHSMz1oNfrZQPQVf9BVRjFlei9WHAegZA1CDsx4w0KwuvDP1XwcM4w==",
+  "dgSpecHash": "ZxkO+5oKd3HtEtip97JpdFCFqc1a41sJx7XAB0WdmGBgjIEhQpBQFMCJ3JPY8CjyWrHoL+LXhTu+9mKGgDzTQA==",
   "success": true,
-  "projectFilePath": "D:\\Final-Pro\\CinemaPro.WebApi\\CinemaPro.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.WebApi\\CinemaPro.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\komp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.10\\microsoft.aspnetcore.cryptography.internal.3.1.10.nupkg.sha512",
     "C:\\Users\\komp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.10\\microsoft.aspnetcore.cryptography.keyderivation.3.1.10.nupkg.sha512",

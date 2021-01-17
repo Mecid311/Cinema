@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Final-Pro\\CinemaPro.Domain\\CinemaPro.Domain.csproj": {}
+    "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\CinemaPro.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Final-Pro\\CinemaPro.Domain\\CinemaPro.Domain.csproj": {
+    "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\CinemaPro.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Final-Pro\\CinemaPro.Domain\\CinemaPro.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\CinemaPro.Domain.csproj",
         "projectName": "CinemaPro.Domain",
-        "projectPath": "D:\\Final-Pro\\CinemaPro.Domain\\CinemaPro.Domain.csproj",
+        "projectPath": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\CinemaPro.Domain.csproj",
         "packagesPath": "C:\\Users\\komp\\.nuget\\packages\\",
-        "outputPath": "D:\\Final-Pro\\CinemaPro.Domain\\obj\\",
+        "outputPath": "C:\\Users\\komp\\Source\\Repos\\Mecid311\\Cinema\\CinemaPro.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komp\\AppData\\Roaming\\NuGet\\NuGet.Config",
