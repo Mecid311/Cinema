@@ -1,0 +1,289 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Single";
+}
+
+<div class="prs_title_main_sec_wrapper" style="background: url('../../uploads/@Model.Movietrailer.TitleImage'); background-position: center; background-size: cover;">
+    <div class="prs_title_img_overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_title_heading_wrapper">
+                    <h2>@Model.Movietrailer.Name</h2>
+                    <ul>
+                        <li>
+                            <a asp-controller="movie" asp-action="index">Movie</a>
+                        </li>
+                        <li>&nbsp;&nbsp; >&nbsp;&nbsp; Movie Single</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="prs_ms_trailer_vid_main_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_heading_section_wrapper">
+                    <h2>Movie Trailer</h2>
+                </div>
+            </div>
+            <div class="col-lg-12 col-lg-12 col-lg-12 col-lg-12">
+                <div class="prs_ms_trailer_vid_wrapper" style="background:url('../../uploads/@Model.Movietrailer.TitleImage');background-position: center; background-size: cover;">
+                    <div class="prs_ms_trailer_vid_img_overlay"></div>
+                    <div class="prs_ms_trailer_vid_icon_wrapper">
+                        <ul>
+                            <li>
+                                <a class="test-popup-link button" rel='external' href='@Model.Movietrailer.Trailer' title='title'><i class="flaticon-play-button"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-lg-12 col-lg-12 col-lg-12">
+                <div class="prs_ms_trailer_slider_main_wrapper">
+                    <div class="prs_ms_trailer_slider_left_wrapper">
+                        <div class="item">
+                            <div class="prs_ms_trailer_slider_left_img_wrapper">
+                                <img src="~/uploads/@Model.Movietrailer.Image" alt="" style=" height: 468.5px; width:100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prs_ms_trailer_slider_right_wrapper">
+                        <h2>@Model.Movietrailer.Startdate.ToString("MMM dd,yyyy")</h2>
+                        <p>@Model.Movietrailer.Name</p>
+                        
+                        <h5>
+                            
+                            <ul style="display:flex">
+                                <li>Starring: </li>
+                                @foreach (var item1 in Model.Mformats)
+                                {
+                                    @if (item1 != Model.Mformats.Last())
+                                    {
+                                        <li>@item1.Format.Name,</li>
+
+                                    }
+                                    else
+                                    {
+                                        <li>@item1.Format.Name</li>
+                                    }
+                                }
+                            </ul>
+
+                        </h5>
+                        <ul>
+                            <li>
+                                Directed by - <span>@Model.Movietrailer.Director.Name</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="prs_movie_cast_main_slider_wrapper">
+    <div class="prs_movie_cast_heading_wrapper">
+        <h2>Movie Cast</h2>
+    </div>
+    <div class="wrap-album-slider">
+        <ul class="movie-cast-slider">
+            @foreach (var item in Model.Mcasts)
+            {
+                <li class="album-slider__item">
+                    <figure class="album">
+                        <div class="prs_ms_cast_slider_cont_wrapper">
+                            <div class="prs_ms_cast_img_wrapper">
+                                <img src="/uploads/@item.Cast.Image" alt="cast_img">
+                            </div>
+                            <div class="prs_ms_cast_img_cont_wrapper">
+                                <h4><a href="#">@item.Cast.Fullname</a></h4>
+                                <p>(@item.Cast.Rolename)</p>
+                            </div>
+                        </div>
+                    </figure>
+                   
+                </li>
+            }
+
+        </ul>
+    
+    </div>
+</div>
+
+<div class="prs_syn_main_section_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div class="prs_syn_cont_wrapper">
+                    <h3>@Model.Movietrailer.Name</h3>
+                    <h4>
+                        <ul style="display:flex">
+                            @foreach (var item1 in Model.Categories)
+                            {
+                                @if (item1 != Model.Categories.Last())
+                                {
+                                    <li>@item1.Name,</li>
+
+                                }
+                                else
+                                {
+                                    <li>@item1.Name</li>
+                                }
+                            }
+                        </ul>
+                    </h4>
+                    <p>
+                        @Model.Movietrailer.Desc
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="prs_syn_img_wrapper">
+                    <img src="/uploads/@Model.Movietrailer.Image" alt="syn_img">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="prs_ms_scene_main_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_heading_section_wrapper">
+                    <h2>behind the scenes</h2>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_ms_scene_slider_wrapper">
+                    <div class="owl-carousel owl-theme">
+                        @for (int i = 0; i < Model.BtheS.Count(); i++)
+                        {
+
+                            @foreach (var item in Model.BtheS)
+                            {<div class="item">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="prs_ms_scene_slider_img prs_ms_scene_slider_img2">
+                                                <img src="/uploads/@item.Video_Photo" alt="scene_img">
+                                                <div class="prs_ms_scene_img_overlay">
+                                                    <a href="~/uploads/@item.Video_Photo" class="venobox info" data-title="PORTFOLIO TITTLE" data-gall="gall12"><i class="flaticon-tool"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                        }
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="prs_ms_rm_main_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_heading_section_wrapper">
+                    <h2>Director Related Movies</h2>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_ms_rm_slider_wrapper">
+                    <div class="owl-carousel owl-theme">
+         
+                        @foreach (var item in Model.MovieUpcome)
+                        {
+                            <div class="item">
+
+                                <div class="prs_upcom_movie_box_wrapper">
+                                    <div class="prs_upcom_movie_img_box">
+                                        <img src="/uploads/@item.Image" alt="movie_img" />
+                                        <div class="prs_upcom_movie_img_overlay"></div>
+                                        <div class="prs_upcom_movie_img_btn_wrapper">
+                                            <ul>
+                                                <li>
+                                                    <a asp-controller="movie" asp-action="single" asp-route-id="@item.Id" asp-route-directorid="@item.DirectorId">View Trailer</a>
+                                                </li>
+                                                <li>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="prs_upcom_movie_content_box">
+                                        <div class="prs_upcom_movie_content_box_inner">
+                                            <h2><a href="#">@item.Name</a></h2>
+                                            <ul style="display:flex">
+                                                @foreach (var item1 in Model.Categories)
+                                                {
+                                                    @if (item1 != Model.Categories.Last())
+                                                    {
+                                                        <li>@item1.Name,</li>
+
+                                                    }
+                                                    else
+                                                    {
+                                                        <li>@item1.Name</li>
+                                                    }
+                                                }
+                                            </ul>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box_inner_icon">
+                                            <ul>
+                                                <li>
+                                                    <a asp-controller="movie" asp-action="moviebooking" asp-route-id="@item.Id"><i class="flaticon-cart-of-ecommerce"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        }
+
+
+
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{ 
+<script>
+    $('.test-popup-link').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            markup: '<div class="mfp-iframe-scaler">' +
+                '<div class="mfp-close"></div>' +
+                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                '<div class="mfp-title">Some caption</div>' +
+                '</div>',
+            patterns: {
+                youtube: {
+                    index: 'youtube.com/',
+                    id: 'v=',
+                    src: @Model.Movietrailer.Trailer
+                }
+            }
+        }
+
+    });
+
+</script>
+}

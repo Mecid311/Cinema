@@ -1,0 +1,39 @@
+﻿@model CinemaPro.Domain.Entity.Partner
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+
+                    <div>
+                        <h4>Partner</h4>
+                        <hr />
+                        <dl class="dl-horizontal">
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Name)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Logo)
+                            </dt>
+                            <dd>
+                                <img class="img-size" src="~/uploads/@Model.Logo" />
+                            </dd>
+                        </dl>
+                    </div>
+                    <div>
+
+                        <a asp-action="Index" class="btn btn-default adminform" style="margin-bottom:30px">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,115 @@
+﻿@model CinemaPro.Domain.Entity.Moviedetail
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+
+
+                    <div>
+                        <h4>Moviedetail</h4>
+                        <hr />
+                        <dl class="dl-horizontal">
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Name)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Startdate)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Startdate)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Enddate)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Enddate)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Trailer)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Trailer)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Image)
+                            </dt>
+                            <dd>
+                                <img class="img-size" src="~/uploads/@Model.Image" />
+                            </dd>
+                            <dd>
+                                <br />
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.TitleImage)
+                            </dt>
+
+                            <dd>
+                                <img class="img-size" src="~/uploads/@Model.TitleImage" />
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Price)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Price)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Desc)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Desc)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Country)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Country)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Time)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Time)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Agelimit)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Agelimit)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Subtitles)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Subtitles)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Director)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Director.Name)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Language)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Language.Languages)
+                            </dd>
+                        </dl>
+                    </div>
+                    <div>
+                        <a asp-action="Index" class="btn btn-default adminform" style="margin-bottom:30px">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

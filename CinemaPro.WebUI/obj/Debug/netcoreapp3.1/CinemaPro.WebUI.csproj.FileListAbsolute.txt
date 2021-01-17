@@ -1,0 +1,420 @@
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.exe
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.deps.json
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.runtimeconfig.json
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.runtimeconfig.dev.json
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.pdb
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.Views.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.Views.pdb
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.AssemblyInfoInputs.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.AssemblyInfo.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.csproj.CoreCompileInputs.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorAssemblyInfo.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorAssemblyInfo.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\staticwebassets\CinemaPro.WebUI.StaticWebAssets.Manifest.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\staticwebassets\CinemaPro.WebUI.StaticWebAssets.xml
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\scopedcss\bundle\CinemaPro.WebUI.styles.css
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.TagHelpers.input.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.TagHelpers.output.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorCoreGenerate.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorTargetAssemblyInfo.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorTargetAssemblyInfo.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.Views.pdb
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.csproj.CopyComplete
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.pdb
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.genruntimeconfig.cache
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Index.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Single.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Single.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MovieBooking.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MovieSeat.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MovieType.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Confirmation.cshtml.g.cs
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Code-Task Məcid\CinemaPro Solution\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.csprojAssemblyReference.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.Views.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.exe
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.deps.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.runtimeconfig.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.runtimeconfig.dev.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.AssemblyInfoInputs.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.AssemblyInfo.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorAssemblyInfo.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorAssemblyInfo.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\staticwebassets\CinemaPro.WebUI.StaticWebAssets.Manifest.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\staticwebassets\CinemaPro.WebUI.StaticWebAssets.xml
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\scopedcss\bundle\CinemaPro.WebUI.styles.css
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.TagHelpers.input.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.TagHelpers.output.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorCoreGenerate.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BtheS\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BtheS\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BtheS\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BtheS\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\BtheS\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Casts\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Casts\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Casts\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Casts\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Casts\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Contacts\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Contacts\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Contactus\Answer.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Contactus\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Directors\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Directors\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Directors\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Directors\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Formats\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Formats\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Formats\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Formats\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Formats\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Languages\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Languages\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Languages\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Languages\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcasts\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcasts\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcasts\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcasts\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcasts\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcats\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcats\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcats\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcats\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mcats\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mformats\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mformats\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mformats\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mformats\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Mformats\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Moviedetails\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Moviedetails\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Moviedetails\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Moviedetails\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Moviedetails\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Partners\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Partners\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Partners\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Partners\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Partners\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Socialmedias\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Socialmedias\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Socialmedias\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Socialmedias\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Socialmedias\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Confirmation.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MovieBooking.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MovieSeat.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MovieType.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Single.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorTargetAssemblyInfo.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.RazorTargetAssemblyInfo.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.Views.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.csproj.CopyComplete
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.genruntimeconfig.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.WebUI.Views.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\CinemaPro.WebUI.csprojAssemblyReference.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.Domain.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\CinemaPro.Domain.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\MoviePay.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Tickets\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\Login.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Extras\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Extras\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Extras\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Extras\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Extras\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Create.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Delete.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Details.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Edit.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Index.cshtml.g.cs

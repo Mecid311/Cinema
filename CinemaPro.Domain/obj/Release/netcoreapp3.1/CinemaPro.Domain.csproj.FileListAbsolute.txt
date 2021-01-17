@@ -1,0 +1,12 @@
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\bin\Release\netcoreapp3.1\CinemaPro.Domain.deps.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\bin\Release\netcoreapp3.1\CinemaPro.Domain.runtimeconfig.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\bin\Release\netcoreapp3.1\CinemaPro.Domain.runtimeconfig.dev.json
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\bin\Release\netcoreapp3.1\CinemaPro.Domain.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\bin\Release\netcoreapp3.1\CinemaPro.Domain.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.csprojAssemblyReference.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.AssemblyInfoInputs.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.AssemblyInfo.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.csproj.CoreCompileInputs.cache
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.dll
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.pdb
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.Domain\obj\Release\netcoreapp3.1\CinemaPro.Domain.genruntimeconfig.cache

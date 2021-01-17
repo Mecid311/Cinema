@@ -1,0 +1,42 @@
+﻿@model CinemaPro.Domain.Entity.Mformat
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+
+                    <h4 class="adminform">Mformat</h4>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <form asp-action="Create"method="post" class="adminform">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <label asp-for="MoviedetailId" class="control-label"></label>
+                                    <select asp-for="MoviedetailId" class="form-control" asp-items="ViewBag.MoviedetailId"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="FormatId" class="control-label"></label>
+                                    <select asp-for="FormatId" class="form-control" asp-items="ViewBag.FormatId"></select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Create" class="btn btn-default" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a asp-action="Index" class="btn btn-default adminform" style="margin-bottom:30px">Back to List</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

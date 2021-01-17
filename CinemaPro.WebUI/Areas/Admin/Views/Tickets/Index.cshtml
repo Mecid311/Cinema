@@ -1,0 +1,95 @@
+﻿@model IEnumerable<CinemaPro.Domain.Entity.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ClientCode.." title="Type in a name">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Totalamount)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Clientcode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Extra)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Moviedetail)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Seat)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Seat)
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="myUL">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Totalamount)
+                                    </td>
+                                    <td class="client">
+                                        @Html.DisplayFor(modelItem => item.Clientcode)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Extra.Packet)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Moviedetail.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Seat.Row)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Seat.No)
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{ 
+
+<script>
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("tr");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByClassName("client")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+
+</script>
+
+
+
+}

@@ -1,0 +1,271 @@
+﻿@inject CinemaDbContext db
+<!DOCTYPE html>
+
+<html lang="az">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CinemaPro</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Cinema Pro" />
+    <meta name="keywords" content="Cinema Pro" />
+    <meta name="author" content="" />
+    <meta name="MobileOptimized" content="320" />
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/dl-menu.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/nice-select.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/venobox.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/js/plugin/rs_slider/layers.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/js/plugin/rs_slider/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/js/plugin/rs_slider/settings.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/responsive.css" />
+    <link rel="shortcut icon" type="image/png" href="~/assets/images/header/favicon.ico" />
+</head>
+<body>
+    <div class="prs_navigation_main_wrapper">
+        <div class="container-fluid">
+            <div id="search_open" class="gc_search_box">
+                <input type="text"  placeholder="Search here">
+                <button>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="prs_navi_left_main_wrapper">
+                <div class="prs_logo_main_wrapper">
+                    <a asp-controller="home" asp-action="index">
+                        <h1>CinemaPro</h1>
+                        @*<img style="height:15px;" src="~/assets/images/header/LogoSample_ByTailorBrands.jpg" alt="logo" />*@
+                    </a>
+                </div>
+                <div class="prs_menu_main_wrapper">
+                    <nav class="navbar navbar-default">
+                        <div id="dl-menu" class="xv-menuwrapper responsive-menu">
+                            <button class="dl-trigger">
+                                <img src="/assets/images/header/bars.png" alt="bar_png">
+                            </button>
+                            <div class="prs_mobail_searchbar_wrapper" id="search_button">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <div class="clearfix"></div>
+                            <ul class="dl-menu">
+                                <li class="parent">
+                                    <a asp-controller="home" asp-action="index">Home</a>
+
+                                </li>
+                                <li class="parent megamenu">
+                                    <a asp-controller="Movie" asp-action="index">Movie</a>
+                                </li>
+
+                                <li class="parent">
+                                    <a asp-controller="home" asp-action="contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /dl-menuwrapper -->
+                    </nav>
+                </div>
+            </div>
+            <div class="prs_navi_right_main_wrapper">
+                <div class="prs_slidebar_wrapper">
+                    <button class="second-nav-toggler" type="button">
+                        <img src="/assets/images/header/bars.png" alt="bar_png">
+                    </button>
+                </div>
+
+
+                @RenderSection("searchby", required: false)
+                @*<div class="product-heading">
+                    <div class="con" id="moviesearch">
+
+                        <input type="text" id="searchby" placeholder="Search Movie">
+                        <button type="submit">
+                            <i class="flaticon-tool"></i>
+                        </button>
+                    </div>
+                </div>*@
+            </div>
+            <div id="mobile-nav" data-prevent-default="true" data-mouse-events="true">
+                <div class="mobail_nav_overlay"></div>
+                <div class="mobile-nav-box">
+                    <div class="mobile-logo">
+                        <a href="index.html" class="mobile-main-logo">
+
+                        </a>
+                        <a href="#" class="manu-close"><i class="fa fa-times"></i></a>
+                    </div>
+                    <ul class="mobile-list-nav">
+
+                        <li>
+                            <a asp-controller="home" asp-action="index">HOME</a>
+                        </li>
+
+                        <li>
+                            <a asp-controller="movie" asp-action="index">MOVIE</a>
+                        </li>
+                        <li>
+                            <a asp-controller="home" asp-action="contact">CONTACT</a>
+                        </li>
+                    </ul>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @RenderBody();
+
+    <div class="prs_patner_main_section_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="prs_heading_section_wrapper">
+                        <h2>Our Patner’s</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="prs_pn_slider_wraper">
+                        <div class="owl-carousel owl-theme">
+                            @foreach (var item in db.Partners)
+                            {
+                                <div class="item">
+                                    <div class="prs_pn_img_wrapper">
+                                        <img src="/uploads/@item.Logo" alt="patner_img">
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="prs_footer_main_section_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="prs_footer_cont1_wrapper prs_footer_cont1_wrapper_1">
+                        <h2>LANGUAGE MOVIES</h2>
+                        <ul>
+                            @foreach (var item in db.Languages)
+                            {
+                                <li>
+                                    <i class="fa fa-circle"></i>
+                                    @item.Languages
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="prs_footer_cont1_wrapper prs_footer_cont1_wrapper_2">
+                        <h2>MOVIES by presenter</h2>
+                        <ul>
+                            @foreach (var item in db.Categories)
+                            {
+                                <li>
+                                    <i class="fa fa-circle"></i>
+                                    @item.Name movies
+                                </li>
+                            }
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="prs_footer_cont1_wrapper prs_footer_cont1_wrapper_3">
+                        <h2>Contact</h2>
+                        <ul>
+
+                            <li>
+                                <i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">@db.Contacts.First().Number1</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">@db.Contacts.First().Number2</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-circle"></i> &nbsp;&nbsp;<a class="e-mail" href="mailto:@db.Contacts.First().Mail?subject=CINEMAPRO%20Customer%20Question&body=Mesajiniz">@db.Contacts.First().Mail</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="prs_bottom_footer_wrapper">
+        <a href="javascript:" id="return-to-top"><i class="flaticon-play-button"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+                    <div class="prs_bottom_footer_cont_wrapper">
+                        <p>
+                             <a asp-controller="home" asp-action="index">CinemaPro 2020-2021</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+                    <div class="prs_footer_social_wrapper">
+                        <ul>
+                            @foreach (var item in db.Socialmedias)
+                            {
+                                @if (!string.IsNullOrWhiteSpace(item.Link))
+                                {
+                                    <li>
+                                        <a href="@item.Link"><i class="@item.Logo"></i></a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="~/assets/js/jquery_min.js"></script>
+    <script src="~/assets/js/modernizr.js"></script>
+    <script src="~/assets/js/bootstrap.js"></script>
+    <script src="~/assets/js/owl.carousel.js"></script>
+    <script src="~/assets/js/jquery.dlmenu.js"></script>
+    <script src="~/assets/js/jquery.sticky.js"></script>
+    <script src="~/assets/js/jquery.nice-select.min.js"></script>
+    <script src="~/assets/js/jquery.magnific-popup.js"></script>
+    <script src="~/assets/js/jquery.bxslider.min.js"></script>
+    <script src="~/assets/js/venobox.min.js"></script>
+    <script src="~/assets/js/smothscroll_part1.js"></script>
+    <script src="~/assets/js/smothscroll_part2.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/jquery.themepunch.revolution.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/jquery.themepunch.tools.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.addon.snow.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.actions.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.carousel.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.kenburn.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.layeranimation.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.migration.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.navigation.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.parallax.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.slideanims.min.js"></script>
+    <script src="~/assets/js/plugin/rs_slider/revolution.extension.video.min.js"></script>
+    <script src="https://kit.fontawesome.com/65af04a3f4.js" crossorigin="anonymous"></script>
+
+    <script src="~/assets/js/custom.js"></script>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

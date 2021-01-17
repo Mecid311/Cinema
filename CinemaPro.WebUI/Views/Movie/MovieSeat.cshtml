@@ -1,0 +1,247 @@
+﻿@model SeatViewModel
+@{
+    ViewData["Title"] = "MovieSeat";
+}
+
+
+<div class="st_bt_top_header_wrapper float_left">
+    <div class="container container_seat">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="st_bt_top_back_btn st_bt_top_back_btn_seatl float_left">
+                    <a asp-controller="movie" asp-action="moviebooking"><i class="fas fa-long-arrow-alt-left"></i> &nbsp;Back</a>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="st_bt_top_center_heading st_bt_top_center_heading_seat_book_page float_left">
+                   
+                    <h4>@DateTime.Now</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+               
+                <div class="st_seatlay_btn float_left">
+                    <a class="paybutton" data-movieid="@Model.MovieId" data-extraid="@Model.ExtraId">Totalmount</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="st_seatlayout_main_wrapper float_left">
+    <div class="container container_seat">
+        <div class="st_seat_lay_heading float_left">
+            <h3>CinemaPro cinema</h3>
+        </div>
+        <div class="st_seat_full_container">
+
+            <div class="st_seat_lay_economy_wrapper st_seat_lay_economy_wrapperexicutive float_left">
+               
+                <div class="st_seat_lay_row float_left">
+                    <ul>
+                        <li class="st_seat_heading_row">C</li>
+                        @foreach (var item in Model.SeatC1)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                    <li>
+                        <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                        <label for="@item.No"></label>
+                    </li>
+                            }
+                            
+                        }
+
+
+                    </ul>
+                    <ul class="st_eco_second_row">
+                        @foreach (var item in Model.SeatC2)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                    <ul class="st_eco_second_row">
+                        @foreach (var item in Model.SeatC3)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                </div>
+                <div class="st_seat_lay_row float_left">
+                    <ul>
+                        <li class="st_seat_heading_row">B</li>
+                        @foreach (var item in Model.SeatB1)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                    <ul class="st_eco_second_row">
+                        @foreach (var item in Model.SeatB2)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                    <ul class="st_eco_second_row">
+                        @foreach (var item in Model.SeatB3)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                </div>
+                <div class="st_seat_lay_row float_left">
+                    <ul>
+                        <li class="st_seat_heading_row">A</li>
+                        @foreach (var item in Model.SeatA1)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                    <ul class="st_eco_second_row">
+                        @foreach (var item in Model.SeatA2)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                    <ul class="st_eco_second_row">
+                        @foreach (var item in Model.SeatA3)
+                        {
+                            if (Model.Tickets.Where(a => a.SeatId == item.Id && a.MoviedetailId == Model.MovieId).Count() != 0)
+                            {
+                                <li class="seat_disable">
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <input type="checkbox" id="@item.No" name="cb" data-id="@item.Id">
+                                    <label for="@item.No"></label>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*@section scripts{
+    <script src="~/assets/js/jquery_min.js"></script>
+    <script>
+
+        $(document).on("click", "input", function () {
+            var clickedBtnID = $(this).attr('id'); // or var clickedBtnID = this.id
+            alert('you clicked on button #' + clickedBtnID);
+        });
+
+    </script>
+}*@
+<!-- st seat Layout End -->

@@ -1,0 +1,75 @@
+﻿@model CinemaPro.Domain.Entity.Contactus
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+
+
+                    <form class="col-12 animated fadeIn" id="preview-email-wrapper" method="post" >
+                        <div class="form-group row">
+                            <label asp-for="Name" class="col-sm-2 col-form-label">Adı</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Name" class="form-control" disabled>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label asp-for="Mail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Mail" class="form-control" disabled>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label asp-for="Comment" class="col-sm-2 col-form-label">Mesaj</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Comment" class="form-control " disabled>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label asp-for="Answer" class="col-sm-2 col-form-label">Cavab</label>
+                            <div class="col-sm-10">
+                                <textarea asp-for="Answer" class="form-control" rows="7" style="resize:none;"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-4">
+                                <button type="submit" class="btn btn-success">Gonder</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="~/lib/ckeditor5/ckeditor.js"></script>
+    <script>
+        $('#nav-header-controls a.dropdown-toggle').removeClass('active').eq(1).addClass('active');
+
+        ClassicEditor
+            .create(document.querySelector('#Answer'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+}
+
+@section css{
+    <style>
+        .ck-editor__editable {
+            min-height: 300px !important;
+        }
+    </style>
+}

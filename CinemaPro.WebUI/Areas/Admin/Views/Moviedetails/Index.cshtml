@@ -1,0 +1,164 @@
+﻿@model IEnumerable<CinemaPro.Domain.Entity.Moviedetail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Image)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.TitleImage)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Price)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Desc)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Country)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Time)
+                                </th>
+
+
+
+                                <th class="operate-cell">
+                                    <a asp-action="Create" class=" btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="myUL">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+
+
+                                    <td>
+                                        <img class="img-size" src="~/uploads/@item.Image" />
+                                    </td>
+                                    <td>
+                                        <img class="img-size" src="~/uploads/@item.TitleImage" />
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Price)
+                                    </td>
+                                    <td>
+                                        @if (item.Desc.Length > 100)
+                                        {
+                                            @Html.Raw($"{item.Desc.Substring(0, 100)}...")
+                                        }
+                                        else
+                                        {
+                                            @Html.Raw(item.Desc)
+                                        }
+
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Country)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Time)
+                                    </td>
+
+
+                                    <td class="operate-cell">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                            <i class="fa fa-pencil"></i>
+                                        </a> |
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">
+                                            <i class="fa fa-location-arrow"></i>
+                                        </a> |
+                                        <a onclick="productRemove(@item.Id)" class=" btn btn-sm btn-danger">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script src="~/lib/sweetalert/sweetalert.min.js"></script>
+    <script>
+        function productRemove(_id) {
+            swal({
+                title: "Are you sure?",
+                text: "Once deleted, you will not be able to recover this imaginary file!",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+
+                        $.ajax({
+                            url: `@Url.Action("Delete")`,
+                            type: 'post',
+                            data: { id: _id },
+                            success: function (response) {
+                                swal("Poof! Your imaginary file has been deleted!", {
+                                    icon: "success",
+                                });
+
+                                window.location.reload();
+                            },
+                            error: function (response) {
+                                alert('xeta oldu');
+                            }
+                        });
+
+
+
+                    } else {
+                        swal("Your imaginary file is safe!");
+                    }
+                });
+        }
+
+
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("tr");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("td")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+
+
+    </script>
+}

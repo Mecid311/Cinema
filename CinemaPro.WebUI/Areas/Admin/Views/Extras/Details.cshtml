@@ -1,0 +1,52 @@
+﻿@model CinemaPro.Domain.Entity.Extra
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+
+
+                    <div>
+                        <h4>Extra</h4>
+                        <hr />
+                        <dl class="dl-horizontal">
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Packet)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Packet)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Cost)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Cost)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Desc)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Desc)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Image)
+                            </dt>
+                            <dd>
+                                <img class="img-size" src="~/uploads/@Model.Image" />
+                            </dd>
+                        </dl>
+                    </div>
+                    <div>
+                        
+                        <a asp-action="Index" class="btn btn-default adminform" style="margin-bottom:30px">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

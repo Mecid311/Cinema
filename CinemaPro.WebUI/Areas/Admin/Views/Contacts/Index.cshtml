@@ -1,0 +1,75 @@
+﻿@model IEnumerable<CinemaPro.Domain.Entity.Contact>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Location)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Number1)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Number2)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Link)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Mail)
+                                </th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Location)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Number1)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Number2)
+                                    </td>
+                                    <td>
+                                        @if (item.Link.Length > 50)
+                                        {
+                                            @Html.Raw($"{item.Link.Substring(0, 50)}...")
+                                        }
+                                        else
+                                        {
+                                            @Html.Raw(item.Link)
+                                        }
+
+                                      
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Mail)
+                                    </td>
+                                    <td class="operate-cell">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                            <i class="fa fa-pencil"></i>
+                                        </a> 
+                                       
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\uploads\fast-food.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Template\Movie\.vscode\settings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\animate.css" />
+    <None Include="wwwroot\assets\css\bootstrap.css" />
+    <None Include="wwwroot\assets\css\dl-menu.css" />
+    <None Include="wwwroot\assets\css\flaticon.css" />
+    <None Include="wwwroot\assets\css\magnific-popup.css" />
+    <None Include="wwwroot\assets\css\nice-select.css" />
+    <None Include="wwwroot\assets\css\owl.carousel.css" />
+    <None Include="wwwroot\assets\css\owl.theme.default.css" />
+    <None Include="wwwroot\assets\css\responsive.css" />
+    <None Include="wwwroot\assets\css\style.css" />
+    <None Include="wwwroot\assets\css\venobox.css" />
+    <None Include="wwwroot\assets\fonts\Flaticon.eot" />
+    <None Include="wwwroot\assets\fonts\Flaticon.ttf" />
+    <None Include="wwwroot\assets\fonts\Flaticon.woff" />
+    <None Include="wwwroot\assets\fonts\Flaticond41d.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont3e6e.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont3e6e.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont3e6e.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="wwwroot\assets\images\header\bars.png" />
+    <None Include="wwwroot\assets\images\header\favicon.ico" />
+    <None Include="wwwroot\assets\images\header\horoscope.gif" />
+    <None Include="wwwroot\assets\images\header\toggle-nav-bg-2.png" />
+    <None Include="wwwroot\assets\js\bootstrap.js" />
+    <None Include="wwwroot\assets\js\contact_form.js" />
+    <None Include="wwwroot\assets\js\custom.js" />
+    <None Include="wwwroot\assets\js\jquery.bxslider.min.js" />
+    <None Include="wwwroot\assets\js\jquery.countTo.js" />
+    <None Include="wwwroot\assets\js\jquery.dlmenu.js" />
+    <None Include="wwwroot\assets\js\jquery.inview.min.js" />
+    <None Include="wwwroot\assets\js\jquery.magnific-popup.js" />
+    <None Include="wwwroot\assets\js\jquery.nice-select.min.js" />
+    <None Include="wwwroot\assets\js\jquery.shuffle.min.js" />
+    <None Include="wwwroot\assets\js\jquery.sticky.js" />
+    <None Include="wwwroot\assets\js\jquery_min.js" />
+    <None Include="wwwroot\assets\js\modernizr.js" />
+    <None Include="wwwroot\assets\js\owl.carousel.js" />
+    <None Include="wwwroot\assets\js\plugin\fonts\revicons\revicons90c6.eot" />
+    <None Include="wwwroot\assets\js\plugin\fonts\revicons\revicons90c6.svg" />
+    <None Include="wwwroot\assets\js\plugin\fonts\revicons\revicons90c6.ttf" />
+    <None Include="wwwroot\assets\js\plugin\fonts\revicons\revicons90c6.woff" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\closedhand.html" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\jquery.themepunch.revolution.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\jquery.themepunch.tools.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\layers.css" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\navigation.css" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\openhand.html" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.addon.snow.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.actions.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.carousel.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.kenburn.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.layeranimation.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.migration.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.navigation.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.parallax.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.slideanims.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\revolution.extension.video.min.js" />
+    <None Include="wwwroot\assets\js\plugin\rs_slider\settings.css" />
+    <None Include="wwwroot\assets\js\smothscroll_part1.js" />
+    <None Include="wwwroot\assets\js\smothscroll_part2.js" />
+    <None Include="wwwroot\assets\js\venobox.min.js" />
+    <None Include="wwwroot\uploads\fast-food.png" />
+    <None Include="wwwroot\uploads\logo.png" />
+    <None Include="wwwroot\uploads\up5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="3.1.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CinemaPro.Domain\CinemaPro.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

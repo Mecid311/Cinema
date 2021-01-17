@@ -1,0 +1,39 @@
+﻿@model CinemaPro.Domain.Entity.Mcat
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="">
+
+                    <div>
+                        <h4>Mcat</h4>
+                        <hr />
+                        <dl class="dl-horizontal">
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Category)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Category.Name)
+                            </dd>
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Moviedetail)
+                            </dt>
+                            <dd>
+                                @Html.DisplayFor(model => model.Moviedetail.Name)
+                            </dd>
+                        </dl>
+                    </div>
+                    <div>
+
+                        <a asp-action="Index" class="btn btn-default adminform" style="margin-bottom:30px">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+﻿@model TypeViewModel
+@{
+    ViewData["Title"] = "MovieType";
+}
+
+
+<div class="st_bt_top_header_wrapper float_left">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="st_bt_top_back_btn float_left">
+                    <a asp-controller="movie" asp-action="movieseat"><i class="fas fa-long-arrow-alt-left"></i> &nbsp;Back</a>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="st_bt_top_center_heading float_left">
+                    <h3>@DateTime.Now</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* 
+    kino adi
+    muddeti
+    dili
+    formati
+    kino teatr
+    oturacaq
+    extra
+    pulu
+
+*@
+
+<div class="st_dtts_wrapper float_left">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="st_dtts_left_main_wrapper float_left">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="st_dtts_ineer_box float_left">
+                                <ul>
+                                    <li>
+                                        <span class="dtts1">Kino Adı: </span>  <span class="dtts2">@Model.Moviedetail.Name</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Kino Müddəti:</span>  <span class="dtts2">@Model.Moviedetail.Time</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Kino Teatr:</span>  <span class="dtts2">CinemaPro</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Kino Dili:</span>  <span class="dtts2">@Model.Moviedetail.Language.Languages</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Kino Formatı:</span>  <span class="dtts2">@Model.Format</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Əlavələr:</span>  <span class="dtts2">@Model.Extra.Packet</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Yer</span>  <span class="dtts2"> @Model.Seat.Row sıra, @Model.Seat.No yer</span>
+                                    </li>
+                                    <li>
+                                        <span class="dtts1">Ümumi məbləğ:</span>  <span class="dtts2">@Model.Totalamount AZN</span>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-12">
+                            <br />
+                            <div class="st_cherity_btn float_left">
+                                <ul>
+                                    <li>
+                                        <a asp-controller="movie" asp-action="confirmation" asp-route-id="@Model.Ticketid">Proceed to Pay </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</div>
+
