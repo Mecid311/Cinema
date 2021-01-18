@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="Desc" class="control-label"></label>
-                                    <input asp-for="Desc" class="form-control" />
+                                    <textarea asp-for="Desc"  rows="7" class="form-control" ></textarea>
                                     <span asp-validation-for="Desc" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
@@ -111,8 +111,14 @@
 
 @section scripts{
 
-
+    <script src="~/lib/ckeditor5/ckeditor.js"></script>
     <script>
+
+        ClassicEditor
+            .create(document.querySelector('#Desc'))
+            .catch(error => {
+                console.error(error);
+            });
 
         $('#movieFile').change(function (e) {
             let reader = new FileReader();
@@ -128,7 +134,7 @@
             reader.readAsDataURL(e.target.files[0]);
         });
 
-       
+
         $('#movieFile-viewer > span').on('click', function (e) {
             e.stopPropagation();
             e.preventDefault();
@@ -136,7 +142,7 @@
             $(e.currentTarget).closest('label').find('input').val('');
 
             $('#movieFile').val = ('');
-        }); 
+        });
 
         let url = $('#movieFile-viewer')
             .click(function () {
@@ -169,7 +175,7 @@
             $(e.currentTarget).closest('label').find('input').val('');
 
             $('#movieFile1').val = ('');
-        }); 
+        });
 
         let url1 = $('#movieFile-viewer1')
             .click(function () {
@@ -179,7 +185,7 @@
         if (url != undefined) {
             $('#movieFile-viewer1').css('background-image', `url('${url1}')`);
         }
-        
+
 
 
         $('#movieForm').on('keyup keypress', function (e) {
@@ -217,10 +223,11 @@
             background-size: cover;
             background-position: center;
         }
-        #movieFile-viewer span {
-            padding: 10px;
-            display: inline-block;
-        }
+
+            #movieFile-viewer span {
+                padding: 10px;
+                display: inline-block;
+            }
 
         #movieFile-viewer1 {
             width: 300px;
@@ -230,9 +237,16 @@
             background-size: cover;
             background-position: center;
         }
-        #movieFile-viewer1 span {
-            padding: 10px;
-            display: inline-block;
+
+            #movieFile-viewer1 span {
+                padding: 10px;
+                display: inline-block;
+            }
+
+        .ck-editor__editable {
+            min-height: 300px !important;
         }
     </style>
 }
+
+
