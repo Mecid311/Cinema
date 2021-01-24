@@ -38,6 +38,7 @@ namespace CinemaPro.WebUI
 
                 cfg.Filters.Add(new AuthorizeFilter(policy));
             });
+
            
 
             //services.PostConfigure<MvcNewtonsoftJsonOptions>(o =>
@@ -73,6 +74,7 @@ namespace CinemaPro.WebUI
                 cfg.ExpireTimeSpan = TimeSpan.FromMinutes(10);
                 cfg.SlidingExpiration = true;
             });
+       
             services.AddRouting(opt =>
             {
                 opt.LowercaseUrls = true;

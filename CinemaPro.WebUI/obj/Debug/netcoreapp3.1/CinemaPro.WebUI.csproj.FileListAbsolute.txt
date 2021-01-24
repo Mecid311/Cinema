@@ -418,3 +418,9 @@ C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3
 C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Details.cshtml.g.cs
 C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Edit.cshtml.g.cs
 C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Seats\Index.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangePassword.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ChangePasswordConfirmation.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\komp\Source\Repos\Mecid311\Cinema\CinemaPro.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
