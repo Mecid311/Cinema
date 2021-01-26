@@ -4,11 +4,15 @@ using CinemaPro.WebUI.Models.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace CinemaPro.WebUI.Areas.Admin.Controllers
 {
@@ -18,11 +22,14 @@ namespace CinemaPro.WebUI.Areas.Admin.Controllers
         readonly SignInManager<CpUser> signInManager;
         readonly UserManager<CpUser> userManager;
         readonly ILogger<AccountController> logger;
-        public AccountController(SignInManager<CpUser> signInManager, UserManager<CpUser> userManager,ILogger<AccountController> logger)
+        readonly IConfiguration conf;
+        public AccountController(SignInManager<CpUser> signInManager, UserManager<CpUser> userManager
+            ,ILogger<AccountController> logger, IConfiguration conf)
         {
             this.signInManager = signInManager;
             this.userManager = userManager;
             this.logger = logger;
+            this.conf = conf;
         }
         [AllowAnonymous]
         public IActionResult Login()
@@ -91,7 +98,7 @@ namespace CinemaPro.WebUI.Areas.Admin.Controllers
         [AllowAnonymous]
         public IActionResult ResetPassword(string token,string email)
         {
-            if (token==null|| email==null)
+            if (token==null || email==null)
             {
                 ModelState.AddModelError("", "Invalid password reset token");
             }
@@ -106,7 +113,7 @@ namespace CinemaPro.WebUI.Areas.Admin.Controllers
                 var user = await userManager.FindByEmailAsync(model.Email);
                 if (user != null)
                 {
-                    var result = await userManager.ResetPasswordAsync(user,model.Token,model.Password);
+                    var result = await userManager.ResetPasswordAsync(user,HttpUtility.UrlDecode(model.Token),model.Password);
                     if (result.Succeeded)
                     {
                         return View("ResetPasswordConfirmation");
@@ -141,12 +148,37 @@ namespace CinemaPro.WebUI.Areas.Admin.Controllers
                 if (user!=null && await userManager.IsEmailConfirmedAsync(user))
                 {
                     var token = await userManager.GeneratePasswordResetTokenAsync(user);
-                    var passwordResetLink = Url.Action("ResetPassword", "Account", new { email = model.Email, token = token }, Request.Scheme);
+                    var passwordResetLink = Url.Action("ResetPassword", "Account", new { email = model.Email,
+                        token = HttpUtility.UrlEncode(token) }, Request.Scheme);
                     logger.Log(LogLevel.Warning, passwordResetLink);
-                    return View("ForgotPasswordConfirmation");
 
+                    var host = conf.GetValue<string>("emailAccount:smtpServer");
+                    var port = conf.GetValue<int>("emailAccount:smtpPort");
+                    var userName = conf.GetValue<string>("emailAccount:UserName");
+                    var password = conf.GetValue<string>("emailAccount:password");
+                    var cc = conf.GetValue<string>("emailAccount:cc").
+                        Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                    SmtpClient client = new SmtpClient(host, port);
+                    client.Credentials = new NetworkCredential(userName, password);
+                    client.EnableSsl = true;
+
+                    MailMessage message = new MailMessage(userName, model.Email);
+
+
+                    foreach (var mailAddress in cc)
+                    {
+                        message.CC.Add(mailAddress);
+                    }
+                    message.Subject = "CinemaPro.WebUI";
+                    message.Body = passwordResetLink;
+                    message.IsBodyHtml = true;
+
+                    client.Send(message);
+
+                    return View("ForgotPasswordConfirmation");
                 }
-                return View("ForgotPassword");
             }
 
             return View(model);

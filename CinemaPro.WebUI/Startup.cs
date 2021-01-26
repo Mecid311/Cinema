@@ -54,7 +54,7 @@ namespace CinemaPro.WebUI
             });
 
             services.AddIdentity<CpUser, CpRole>()
-                .AddEntityFrameworkStores<CinemaDbContext>();
+                .AddEntityFrameworkStores<CinemaDbContext>().AddDefaultTokenProviders();
 
             services.Configure<IdentityOptions>(cfg =>
             {
@@ -78,7 +78,7 @@ namespace CinemaPro.WebUI
             services.AddRouting(opt =>
             {
                 opt.LowercaseUrls = true;
-                opt.LowercaseQueryStrings = true;
+                //opt.LowercaseQueryStrings = true;
             });
 
         }
