@@ -262,7 +262,7 @@
 
 
                         $.each(response, function (key, value) {
-                            console.log(value.name);
+                            console.log(value.id);
 
                             var movies = ` <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 prs_upcom_slide_first">
                                                 <div class="prs_upcom_movie_box_wrapper prs_mcc_movie_box_wrapper">
