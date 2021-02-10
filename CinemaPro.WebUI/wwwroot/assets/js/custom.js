@@ -273,7 +273,7 @@
                                                             <ul>
                                                                <li></li>
                                                                 <li>
-                                                                    <a asp-controller="movie" asp-action="single" asp-route-id="${value.Id}" asp-route-directorid="${value.Director_Id}">View Details</a>
+                                                                    <a href="/movie/single/${value.id}?directorid=${value.directorId}">View Details</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -336,7 +336,7 @@
                                                             <ul>
                                                                <li></li>
                                                                 <li>
-                                                                    <a asp-controller="movie" asp-action="single" asp-route-id="${value.Id}" asp-route-directorid="${value.Director_Id}">View Details</a>
+                                                                    <a href="/movie/single/${value.id}?directorid=${value.directorId}">View Details</a>
                                                                 </li>
                                                             </ul>
                                                         </div>

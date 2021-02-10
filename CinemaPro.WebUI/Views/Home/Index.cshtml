@@ -43,8 +43,79 @@
                     <h2>Relesed Movies</h2>
                 </div>
             </div>
-            
-            <div class="tab-content">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="prs_ms_rm_slider_wrapper">
+                    <div class="owl-carousel owl-theme">
+
+                        @foreach (var item in Model.MovieRelesed)
+                        {
+                            <div class="item">
+
+                                <div class="prs_upcom_movie_box_wrapper">
+                                    <div class="prs_upcom_movie_img_box">
+                                        <img src="/uploads/@item.Image" alt="movie_img" />
+                                        <div class="prs_upcom_movie_img_overlay"></div>
+                                        <div class="prs_upcom_movie_img_btn_wrapper">
+                                            <ul>
+                                                <li>
+                                                    <a asp-controller="movie" asp-action="single" asp-route-id="@item.Id" asp-route-directorid="@item.DirectorId">View Details</a>
+                                                </li>
+                                                <li>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="prs_upcom_movie_content_box">
+                                        <div class="prs_upcom_movie_content_box_inner">
+                                            <h2><a href="#">@item.Name</a></h2>
+                                            <ul style="display:flex">
+                                                @foreach (var item1 in item.Mcats)
+                                                {
+                                                    @if (item1 != item.Mcats.Last())
+                                                    {
+                                                        <li>@item1.Category.Name,</li>
+
+                                                    }
+                                                    else
+                                                    {
+                                                        <li>@item1.Category.Name</li>
+                                                    }
+                                                }
+                                            </ul>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box_inner_icon">
+                                            <ul>
+                                                <li>
+                                                    <a asp-controller="movie" asp-action="moviebooking" asp-route-id="@item.Id"><i class="flaticon-cart-of-ecommerce"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        }
+
+
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="prs_animate_btn1 prs_upcom_main_wrapper">
+                            <ul>
+                                <li>
+                                    <a asp-controller="movie" asp-action="index" class="button button--tamaya prs_upcom_main_btn" data-text="view all"><span>View All</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="tab-content">
             
                 <div role="tabpanel" class="tab-pane fade in active" id="hot">
                     <div class="prs_upcom_slider_slides_wrapper">
@@ -121,7 +192,7 @@
                     </div>
                 </div>
                
-            </div>
+            </div>*@
         </div>
     </div>
 </div>
